@@ -683,17 +683,17 @@
   resolved "https://registry.yarnpkg.com/@metamask/safe-event-emitter/-/safe-event-emitter-2.0.0.tgz#af577b477c683fad17c619a78208cede06f9605c"
   integrity sha512-/kSXhY692qiV1MXu6EeOZvg5nECLclxNXcKCxJ3cXQgYuRymRHpdx/t7JXfsK+JLjwA1e1c1/SBrlQYpusC29Q==
 
-"@metamask/snap-controllers@^0.6.1":
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/@metamask/snap-controllers/-/snap-controllers-0.6.1.tgz#8f7094f3c00294155c7f7b6902be0d34ded56a25"
-  integrity sha512-xwmhcj3xPXCOOz/nFYSnnbt0P4/r+iJyQANBppTLl5zkInvom8sDpZPbvtgBCj815of4KuFNxFsbVBD5Emz0cQ==
+"@metamask/snap-controllers@^0.6.3":
+  version "0.6.3"
+  resolved "https://registry.yarnpkg.com/@metamask/snap-controllers/-/snap-controllers-0.6.3.tgz#f67c85440309ab208733c39611328d1992e3fc0d"
+  integrity sha512-WrVZ4XuwtNi+f8ZB9jYNDrlBg60pwaqrQ8wPqJTH/zH48j1bP0XfqxaBuoIvk4LRSIL8GbjDJFBQl01T+3bG6Q==
   dependencies:
     "@metamask/controllers" "^17.0.0"
     "@metamask/object-multiplex" "^1.1.0"
     "@metamask/obs-store" "^7.0.0"
     "@metamask/post-message-stream" "4.0.0"
     "@metamask/safe-event-emitter" "^2.0.0"
-    "@metamask/snap-workers" "^0.6.1"
+    "@metamask/snap-workers" "^0.6.3"
     "@types/deep-freeze-strict" "^1.1.0"
     ajv "^8.8.2"
     concat-stream "^2.0.0"
@@ -710,17 +710,17 @@
     semver "^7.3.5"
     tar-stream "^2.2.0"
 
-"@metamask/snap-workers@^0.6.1":
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/@metamask/snap-workers/-/snap-workers-0.6.1.tgz#633d160d500edcf7481d95f7a32fceeaa6000df2"
-  integrity sha512-DTlfFDds7mKUxAGUJ13w/CYmN6SaGQ9cH54nICfwgFTL5QS+9A8wgtbHP39TAjCQKQj/qyZwWrvALG5bKX21WA==
+"@metamask/snap-workers@^0.6.3":
+  version "0.6.3"
+  resolved "https://registry.yarnpkg.com/@metamask/snap-workers/-/snap-workers-0.6.3.tgz#ef456f7d0bef1e492984784b0e4785ed3e42dab8"
+  integrity sha512-P2rGjnNfq8EcAu7CD7N/Ipk+x0isPwXWDoQNcCT5mgvLGoeRLhJmre+aDpwBvCK4FTJvUZ+PabXSoFlDme14Cw==
 
 "@metamask/snaps-cli@^0.6.1":
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/@metamask/snaps-cli/-/snaps-cli-0.6.1.tgz#9fb40618f01c8e878d6926414c33171b2603aee3"
-  integrity sha512-yQREyAjPskQszbtIY47aN7i5BQ/L70egU+yKn2vB2De5N8+PAH+epAXe6VqY3l8omkpJz4bZB+DMIQOXaazE+Q==
+  version "0.6.3"
+  resolved "https://registry.yarnpkg.com/@metamask/snaps-cli/-/snaps-cli-0.6.3.tgz#794547bced2358663806010b30dc98a1423e8e38"
+  integrity sha512-RrNDhlhikzTHVb3nBfiJOk3n4NlCruzdnm3FblxQO9KiZLzbwNT+0Y3VEwTx3Oou2nJjBxXduE/snBhcHfAEKQ==
   dependencies:
-    "@metamask/snap-controllers" "^0.6.1"
+    "@metamask/snap-controllers" "^0.6.3"
     browserify "^17.0.0"
     chokidar "^3.0.2"
     fast-deep-equal "^2.0.1"
