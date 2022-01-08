@@ -626,11 +626,6 @@
   resolved "https://registry.yarnpkg.com/@metamask/eslint-config-nodejs/-/eslint-config-nodejs-8.0.0.tgz#2181f2777a8e66825c2fd9882cb173b5a4d2b689"
   integrity sha512-hN49rqgzhqo7WCJuCCD8P3e9ZhwNt6m9+XEKxnj3v1DKw8v6P6BW210LvOfzd6TfpZxN20qqnt5kxZOcN/ZPpA==
 
-"@metamask/eslint-config-typescript@^8.0.0":
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/@metamask/eslint-config-typescript/-/eslint-config-typescript-8.0.0.tgz#72f5b0cd72ffdfb8c6bbad86437801267316f254"
-  integrity sha512-tCCgh5nMg/GTtQ1e84jF48PoelG9MWZxe3GrBZOdKw1JgTanmyapRND4TukbUFghruoXi/HmwlY2qHQSQTVlIg==
-
 "@metamask/eslint-config@^8.0.0":
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/@metamask/eslint-config/-/eslint-config-8.0.0.tgz#f4e3bcd6b37ec135b5a72902b0526cba2a6b5a4d"
