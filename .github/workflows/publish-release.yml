@@ -42,6 +42,7 @@ jobs:
       - run: yarn allow-scripts
       - run: yarn build
       - run: yarn build:website
-      - uses: MetaMask/action-publish-gh-pages@v2
+      - name: Publish to GitHub Pages
+        uses: MetaMask/action-publish-gh-pages@v2
         with:
           source-directory: public
