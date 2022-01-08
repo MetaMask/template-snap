@@ -1,10 +1,10 @@
 {
   "name": "@metamask/example-snap",
   "version": "0.6.1",
-  "description": "An example MetaMask Snap.",
+  "description": "The 'Hello, world!' of MetaMask Snaps.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MetaMask/snaps-skunkworks.git"
+    "url": "https://github.com/MetaMask/snap-template.git"
   },
   "license": "MIT",
   "main": "src/index.js",
@@ -14,7 +14,6 @@
     "snap.manifest.json"
   ],
   "scripts": {
-    "setup": "yarn install && yarn allow-scripts",
     "build:clean": "yarn clean && yarn build",
     "build:website": "node ./scripts/build-website.js",
     "build": "mm-snap build",
@@ -29,13 +28,12 @@
     "lint:changelog": "yarn auto-changelog validate"
   },
   "devDependencies": {
-    "@lavamoat/allow-scripts": "^1.0.6",
     "@metamask/auto-changelog": "^2.5.0",
     "@metamask/eslint-config": "^8.0.0",
     "@metamask/eslint-config-jest": "^8.0.0",
     "@metamask/eslint-config-nodejs": "^8.0.0",
     "@metamask/eslint-config-typescript": "^8.0.0",
-    "@metamask/snaps-cli": "^0.6.1",
+    "@metamask/snaps-cli": "^0.6.3",
     "eslint": "^7.30.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.23.4",
@@ -52,13 +50,5 @@
   },
   "engines": {
     "node": ">=12.11.0"
-  },
-  "lavamoat": {
-    "allowScripts": {
-      "@lavamoat/preinstall-always-fail": false,
-      "keccak": false,
-      "secp256k1": false,
-      "core-js": false
-    }
   }
 }
