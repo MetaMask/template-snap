@@ -24,7 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release.
 
-[Unreleased]: https://github.com/MetaMask/snaps-skunkworks/compare/v0.6.1...HEAD
-[0.6.1]: https://github.com/MetaMask/snaps-skunkworks/compare/v0.6.0...v0.6.1
-[0.6.0]: https://github.com/MetaMask/snaps-skunkworks/compare/v0.4.0...v0.6.0
-[0.4.0]: https://github.com/MetaMask/snaps-skunkworks/releases/tag/v0.4.0
+[Unreleased]: https://github.com/MetaMask/snap-template/compare/v0.6.1...HEAD
+[0.6.1]: https://github.com/MetaMask/snap-template/compare/v0.6.0...v0.6.1
+[0.6.0]: https://github.com/MetaMask/snap-template/compare/v0.4.0...v0.6.0
+[0.4.0]: https://github.com/MetaMask/snap-template/releases/tag/v0.4.0
