@@ -7,15 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ## [0.7.0]
-### Uncategorized
+### Changed
 - @metamask/snaps-cli@0.7.0 ([#4](https://github.com/MetaMask/snap-template/pull/4))
-- Rebuild snap
-- Fix lockfile
 - Add more content to the custom confirmation
-- Remove allow-scripts step from CI
 - Add cleanup script, more instructions in readme
-- Various template repository preparations
-- The beginning of time
 
 ## [0.6.1]
 ### Fixed
