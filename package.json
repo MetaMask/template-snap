@@ -1,6 +1,6 @@
 {
   "name": "@metamask/example-snap",
-  "version": "0.6.1",
+  "version": "0.7.0",
   "description": "The 'Hello, world!' of MetaMask Snaps.",
   "repository": {
     "type": "git",
