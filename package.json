@@ -1,5 +1,5 @@
 {
-  "name": "@metamask/example-snap",
+  "name": "@metamask/template-snap",
   "version": "0.7.0",
   "description": "The 'Hello, world!' of MetaMask Snaps.",
   "repository": {

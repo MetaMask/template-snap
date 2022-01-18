@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.7.0]
 ### Changed
+- Package renamed to `@metamask/template-snap`
 - @metamask/snaps-cli@0.7.0 ([#4](https://github.com/MetaMask/snap-template/pull/4))
 - Add more content to the custom confirmation
 - Add cleanup script, more instructions in readme
