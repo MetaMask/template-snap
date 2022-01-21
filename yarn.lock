@@ -230,7 +230,7 @@
   dependencies:
     "@babel/types" "^7.16.7"
 
-"@babel/helper-module-imports@^7.12.13", "@babel/helper-module-imports@^7.16.0":
+"@babel/helper-module-imports@^7.12.13":
   version "7.16.0"
   resolved "https://registry.yarnpkg.com/@babel/helper-module-imports/-/helper-module-imports-7.16.0.tgz#90538e60b672ecf1b448f5f4f5433d37e79a3ec3"
   integrity sha512-kkH7sWzKPq0xt3H1n+ghb4xEMP8k0U7XV3kkB+ZGy69kDk2ySFW1qPi06sjKzFY3t1j6XbJSqr4mF9L7CYVyhg==
@@ -270,7 +270,7 @@
   resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.16.7.tgz#aa3a8ab4c3cceff8e65eb9e73d87dc4ff320b2f5"
   integrity sha512-Qg3Nk7ZxpgMrsox6HreY1ZNKdBq7K72tDSliA6dCl5f007jR4ne8iD5UzuNnCJH2xBf2BEEVGr+/OL6Gdp7RxA==
 
-"@babel/helper-plugin-utils@^7.13.0", "@babel/helper-plugin-utils@^7.16.5":
+"@babel/helper-plugin-utils@^7.13.0":
   version "7.16.5"
   resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.16.5.tgz#afe37a45f39fce44a3d50a7958129ea5b1a5c074"
   integrity sha512-59KHWHXxVA9K4HNF4sbHCf+eJeFe0Te/ZFGqBT4OjXhrwvA04sGfaEGsVTdsjoszq0YTP49RC9UKe5g8uN2RwQ==
@@ -831,7 +831,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.16.7"
 
-"@babel/plugin-transform-runtime@^7.16.7":
+"@babel/plugin-transform-runtime@^7.16.7", "@babel/plugin-transform-runtime@^7.5.5":
   version "7.16.8"
   resolved "https://registry.yarnpkg.com/@babel/plugin-transform-runtime/-/plugin-transform-runtime-7.16.8.tgz#3339368701103edae708f0fba9e4bfb70a3e5872"
   integrity sha512-6Kg2XHPFnIarNweZxmzbgYnnWsXxkx9WQUVk2sksBRL80lBC1RAQV3wQagWxdCHiYHqPN+oenwNIuttlYgIbQQ==
@@ -840,18 +840,6 @@
     "@babel/helper-plugin-utils" "^7.16.7"
     babel-plugin-polyfill-corejs2 "^0.3.0"
     babel-plugin-polyfill-corejs3 "^0.5.0"
-    babel-plugin-polyfill-regenerator "^0.3.0"
-    semver "^6.3.0"
-
-"@babel/plugin-transform-runtime@^7.5.5":
-  version "7.16.5"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-runtime/-/plugin-transform-runtime-7.16.5.tgz#0cc3f01d69f299d5a42cd9ec43b92ea7a777b8db"
-  integrity sha512-gxpfS8XQWDbQ8oP5NcmpXxtEgCJkbO+W9VhZlOhr0xPyVaRjAQPOv7ZDj9fg0d5s9+NiVvMCE6gbkEkcsxwGRw==
-  dependencies:
-    "@babel/helper-module-imports" "^7.16.0"
-    "@babel/helper-plugin-utils" "^7.16.5"
-    babel-plugin-polyfill-corejs2 "^0.3.0"
-    babel-plugin-polyfill-corejs3 "^0.4.0"
     babel-plugin-polyfill-regenerator "^0.3.0"
     semver "^6.3.0"
 
@@ -1558,17 +1546,17 @@
   resolved "https://registry.yarnpkg.com/@metamask/safe-event-emitter/-/safe-event-emitter-2.0.0.tgz#af577b477c683fad17c619a78208cede06f9605c"
   integrity sha512-/kSXhY692qiV1MXu6EeOZvg5nECLclxNXcKCxJ3cXQgYuRymRHpdx/t7JXfsK+JLjwA1e1c1/SBrlQYpusC29Q==
 
-"@metamask/snap-controllers@^0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@metamask/snap-controllers/-/snap-controllers-0.7.0.tgz#9662bf66b49eea10c229719b8b620887e8f342d6"
-  integrity sha512-/mxw8aZa9sCKigMEtjYAA0v+MV6cKhfaRMgjyO84XlyKRred0O3QyKbRgskqScOGhGxt6MkLu/SCPbAlNWeHwQ==
+"@metamask/snap-controllers@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@metamask/snap-controllers/-/snap-controllers-0.8.0.tgz#ba388f12bdd9f7e5572ca69aa4982d865f9c5a54"
+  integrity sha512-uvmPVKsOz8+/6I9AGxjoVQ0Q7mc3daWDS2znBCaEzzjsfT2j6cRFUjLK29yr6XFLv+0NGjK3S0JHBxk6q3B3nA==
   dependencies:
     "@metamask/controllers" "^17.0.0"
     "@metamask/object-multiplex" "^1.1.0"
     "@metamask/obs-store" "^7.0.0"
     "@metamask/post-message-stream" "4.0.0"
     "@metamask/safe-event-emitter" "^2.0.0"
-    "@metamask/snap-workers" "^0.7.0"
+    "@metamask/snap-workers" "^0.8.0"
     "@types/deep-freeze-strict" "^1.1.0"
     ajv "^8.8.2"
     concat-stream "^2.0.0"
@@ -1585,15 +1573,15 @@
     semver "^7.3.5"
     tar-stream "^2.2.0"
 
-"@metamask/snap-workers@^0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@metamask/snap-workers/-/snap-workers-0.7.0.tgz#a194902440f17c9817a88645704ff9c8d687634f"
-  integrity sha512-jjP3UxwMdosfcPiRCaWbx5FbWEN4Leuvp+qr4pp61smHSj+Rcr2Vh3RK15opc+MIZul4VsKw30LZ6bN5rxhx0A==
+"@metamask/snap-workers@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@metamask/snap-workers/-/snap-workers-0.8.0.tgz#2a1fb51246b1de38edbc1e5efd72d494de452253"
+  integrity sha512-+mwSk7wiPv6hQsMH3AftZgk4CcGio2kshq8gXPV4Y1q8xWekK7CHmuQ2XoJ+vmR9TuC16LCR1dDNowY17qO2Dw==
 
-"@metamask/snaps-cli@^0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@metamask/snaps-cli/-/snaps-cli-0.7.0.tgz#e8430321825a460e718cb22252db022f44816fac"
-  integrity sha512-MSBpA6uPvlyoFn7scZJNEQcsXtkam45YT5ZJ7IruMRj9WuK8ENBivm4dp3eTzPIccIQogRvcPyeHwFsccXao7w==
+"@metamask/snaps-cli@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@metamask/snaps-cli/-/snaps-cli-0.8.0.tgz#5387a9f56091200d6657a8e49d743bdb7b633451"
+  integrity sha512-3sNWz4xY5KRwSbjq9s+q5YY7nlRorV/KV3KsTkgSDaGoiFwwor+pSTVObO0Zea7BsGdTlHZzFFd3h+QQUYIyUw==
   dependencies:
     "@babel/core" "^7.16.7"
     "@babel/plugin-proposal-class-properties" "^7.16.7"
@@ -1602,7 +1590,7 @@
     "@babel/plugin-proposal-optional-chaining" "^7.16.7"
     "@babel/plugin-transform-runtime" "^7.16.7"
     "@babel/preset-env" "^7.16.7"
-    "@metamask/snap-controllers" "^0.7.0"
+    "@metamask/snap-controllers" "^0.8.0"
     "@nodefactory/strip-comments" "^1.0.2"
     babelify "^10.0.0"
     browserify "^17.0.0"
@@ -1991,14 +1979,6 @@ babel-plugin-polyfill-corejs2@^0.3.0:
     "@babel/compat-data" "^7.13.11"
     "@babel/helper-define-polyfill-provider" "^0.3.0"
     semver "^6.1.1"
-
-babel-plugin-polyfill-corejs3@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-polyfill-corejs3/-/babel-plugin-polyfill-corejs3-0.4.0.tgz#0b571f4cf3d67f911512f5c04842a7b8e8263087"
-  integrity sha512-YxFreYwUfglYKdLUGvIF2nJEsGwj+RhWSX/ije3D2vQPOXuyMLMtg/cCGMDpOA7Nd+MwlNdnGODbd2EwUZPlsw==
-  dependencies:
-    "@babel/helper-define-polyfill-provider" "^0.3.0"
-    core-js-compat "^3.18.0"
 
 babel-plugin-polyfill-corejs3@^0.5.0:
   version "0.5.1"
@@ -2550,14 +2530,6 @@ cookiejar@^2.1.1:
   version "2.1.3"
   resolved "https://registry.yarnpkg.com/cookiejar/-/cookiejar-2.1.3.tgz#fc7a6216e408e74414b90230050842dacda75acc"
   integrity sha512-JxbCBUdrfr6AQjOXrxoTvAMJO4HBTUIlBzslcJPAz+/KT8yk53fXun51u+RenNYvad/+Vc2DIz5o9UxlCDymFQ==
-
-core-js-compat@^3.18.0:
-  version "3.20.0"
-  resolved "https://registry.yarnpkg.com/core-js-compat/-/core-js-compat-3.20.0.tgz#fd704640c5a213816b6d10ec0192756111e2c9d1"
-  integrity sha512-relrah5h+sslXssTTOkvqcC/6RURifB0W5yhYBdBkaPYa5/2KBMiog3XiD+s3TwEHWxInWVv4Jx2/Lw0vng+IQ==
-  dependencies:
-    browserslist "^4.19.1"
-    semver "7.0.0"
 
 core-js-compat@^3.20.0, core-js-compat@^3.20.2:
   version "3.20.3"
