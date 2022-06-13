@@ -1,4 +1,4 @@
-module.exports.onRpcMessage = async ({ origin, request }) => {
+module.exports.onRpcRequest = async ({ origin, request }) => {
   switch (request.method) {
     case 'hello':
       return wallet.request({
