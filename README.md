@@ -1,7 +1,13 @@
 # @metamask/template-snap
 
 The "Hello, world!" of MetaMask Snaps, and also a GitHub template repository.
-For instructions, see [the MetaMask documentation](https://docs.metamask.io/guide/snaps.html).
+For instructions, see [the MetaMask documentation](https://docs.metamask.io/guide/snaps.html#serving-a-snap-to-your-local-environment).
+
+## How To Use This Template
+
+This repository contains the files you need to start your snap project. Click the "Use this template" button* to clone this repository into a new project, then modify the source code to make it your own. For a step by step guide, read [The 5-Minute Snap Tutorial](https://github.com/Montoya/gas-fee-snap#readme). 
+
+_* You must be logged in to GitHub to see this button._
 
 ## Cloning
 
