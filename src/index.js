@@ -1,11 +1,11 @@
-wallet.registerRpcMessageHandler(async (originString, requestObject) => {
-  switch (requestObject.method) {
+module.exports.onRpcRequest = async ({ origin, request }) => {
+  switch (request.method) {
     case 'hello':
       return wallet.request({
         method: 'snap_confirm',
         params: [
           {
-            prompt: `Hello, ${originString}!`,
+            prompt: `Hello, ${origin}!`,
             description:
               'This custom confirmation is just for display purposes.',
             textAreaContent:
@@ -16,4 +16,4 @@ wallet.registerRpcMessageHandler(async (originString, requestObject) => {
     default:
       throw new Error('Method not found.');
   }
-});
+};
