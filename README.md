@@ -5,9 +5,7 @@ For instructions, see [the MetaMask documentation](https://docs.metamask.io/guid
 
 ## How To Use This Template
 
-This repository contains the files you need to start your snap project. Click the "Use this template" button\* to clone this repository into a new project, then modify the source code to make it your own. For a step by step guide, read [The 5-Minute Snap Tutorial](https://github.com/Montoya/gas-fee-snap#readme).
-
-_\* You must be logged in to GitHub to see this button._
+This repository contains the files you need to start your snap project. First, log into GitHub, then click the "Use this template" button to clone this repository into a new project. Once your new repository is created, you can modify the source code to make it your own. For a step by step guide, read [The 5-Minute Snap Tutorial](https://github.com/Montoya/gas-fee-snap#readme).
 
 ## Cloning
 
