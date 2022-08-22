@@ -1,6 +1,7 @@
 const { promises: fs } = require('fs');
 const path = require('path');
 const mkdirp = require('mkdirp');
+const packageJson = require('../package.json');
 
 main();
 
@@ -24,7 +25,7 @@ async function main() {
     htmlContents.replace(
       // eslint-disable-next-line no-template-curly-in-string
       'const snapId = `local:${window.location.href}`;',
-      'const snapId = `npm:@metamask/template-snap`;',
+      `const snapId = 'npm:${packageJson.name}';`,
     ),
   );
 }
