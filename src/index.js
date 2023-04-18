@@ -1,7 +1,7 @@
 module.exports.onRpcRequest = async ({ origin, request }) => {
   switch (request.method) {
     case 'hello':
-      return wallet.request({
+      return snap.request({
         method: 'snap_confirm',
         params: [
           {
